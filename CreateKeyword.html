@@ -45,11 +45,12 @@
     .col-md-5 {
       margin-left: 0 !important;
     }
+    
   }
   .custom-border {
     border: 2px solid #ced4da; /* Border color */
     width: 689px;
-    height: 421px;
+    height: 400px;
     padding: 20px; /* Add padding if needed */
     border-radius: 10px; /* Add border radius for rounded corners */
   }
@@ -140,51 +141,51 @@
   </div>
 
   <div class="container" style="margin-top: 45px; margin-bottom: 25px; padding: 0; padding-left: 10px;">
-    <h1 style="margin: 0; font-size: 27px; cursor: pointer;">CREATE NOTIFICATIONS</h1>
+    <h1 style="margin: 0; font-size: 27px; cursor: pointer;">CREATE KEYWORD</h1>
 </div>
 
 <div class="container">
-    <div class="row justify-content-center">
+  <div class="row justify-content-center">
       <div class="col-md-6">
-        <div class="custom-border">
-          <form>
-            <div class="row mb-3">
-              <div class="col">
-                <label for="keywordName1" class="form-label">Keyword Name</label>
-                <input type="text" class="form-control" id="keywordName1">
-              </div>
-              <div class="col">
-                <label for="keywordName2" class="form-label">Keyword Name</label>
-                <input type="text" class="form-control" id="keywordName2">
-              </div>
-            </div>
-            <div class="row mb-3">
-              <div class="col">
-                <label for="replyPriority" class="form-label">Reply Priority</label>
-                <select class="form-select" id="replyPriority">
-                  <option selected>Select option</option>
-                  <!-- Add your options here -->
-                </select>
-              </div>
-              <div class="col">
-                <label for="keywordDescription" class="form-label">Keyword Description</label>
-                <input type="text" class="form-control" id="keywordDescription">
-              </div>
-            </div>
-            <!-- Additional buttons -->
-            <div class="row mb-3">
-              <div class="col"></div> <!-- Empty column to push buttons to the right -->
-              <div class="col-md-6 d-flex justify-content-end">
-                <button type="button" class="btn btn-secondary" style="color: #FF5400; background-color: #FFF; border-color: #FF5400; width: 90px; height: 40px; margin-right: 5px; font-size: 14px;">Clear</button>
-                <button type="button" class="btn btn-primary" style="background-color: #FF5400; width: 89px; height: 40px; font-size: 14px;">Send</button>
-              </div>
-            </div>
-            <!-- Add more form fields if needed -->
-          </form>
-        </div>
+          <div class="custom-border p-4"> 
+              <h4 class="mb-4">Keyword Details</h4> 
+              <form>
+                  <div class="row mb-3">
+                      <div class="col">
+                          <label for="keywordName1" class="form-label">Keyword Name</label>
+                          <input type="text" class="form-control" id="keywordName1" placeholder="Enter your name">
+                      </div>
+                      <div class="col">
+                          <label for="keywordName2" class="form-label">Keyword Name</label>
+                          <input type="text" class="form-control" id="keywordName2" placeholder="INFO IdNumber, Fname, Lname">
+                      </div>
+                  </div>
+                  <div class="row mb-3">
+                      <div class="col">
+                          <label for="replyPriority" class="form-label">Reply Priority</label>
+                          <select class="form-select" id="replyPriority">
+                              <option selected>Select</option>
+                              <!-- Add your options here -->
+                          </select>
+                      </div>
+                      <div class="col">
+                          <label for="keywordDescription" class="form-label">Keyword Description</label>
+                          <input type="text" class="form-control" id="keywordDescription">
+                      </div>
+                  </div>
+                  <div class="row mt-5"> <!-- Increased margin-top value -->
+                      <div class="col-md-6"></div>
+                      <div class="col-md-6 d-flex justify-content-end align-items-center"> <!-- Adjusted margin-top -->
+                          <button type="button" class="btn btn-secondary" style="color: #FF5400; background-color: #FFF; border-color: #FF5400; width: 90px; height: 40px; margin-right: 5px; font-size: 14px;">Clear</button>
+                          <button type="button" class="btn btn-primary" style="background-color: #FF5400; width: 89px; height: 40px; font-size: 14px;">Send</button>
+                      </div>
+                  </div>
+              </form>
+          </div>
       </div>
-    </div>
   </div>
+</div>
+
   
   
   
